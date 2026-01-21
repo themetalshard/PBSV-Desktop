@@ -250,8 +250,7 @@ fn show_calendar_view(
     egui::ScrollArea::vertical()
         .auto_shrink([false, false])
         .show(ui, |ui| {
-
-            // Horizontal scrolling for days
+            
             egui::ScrollArea::horizontal()
                 .auto_shrink([false, false])
                 .show(ui, |ui| {
@@ -306,3 +305,4 @@ fn show_about(ui: &mut egui::Ui) {
         ui.weak("Smiley!");
     });
 }
+
